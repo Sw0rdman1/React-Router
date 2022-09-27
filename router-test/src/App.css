@@ -1,0 +1,86 @@
+
+.header {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 45px;
+  background-color: #43087b;
+  padding: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 50px;
+  color:whitesmoke
+}
+
+a {
+  text-decoration: none;
+  font-size: 28px;
+  padding: 10px;
+  margin: 0;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.invoiceLinks {
+  font-size: 22px;
+  color: darkslateblue;
+  color: #43087b
+}
+
+input {
+  font-size: 22px;
+  border-radius: 20px;
+  color: #43087b;
+  padding: 10px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+
+:placeholder-shown {
+  color: black;
+  opacity: 80%;
+}
+
+
+.invoice-card {
+  background-color: #43087b;
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 30px;
+  font-size: 18px;
+  color: whitesmoke;
+}
+
+.invoice-card p {
+  padding-top: 15px;
+}
+
+h2 {
+font-size: 25px;
+padding-bottom: 5px;
+}
+
+button {
+  font-size: 22px;
+  padding: 0 25px;
+  margin-top: 20px;
+  color: whitesmoke;
+  background-color: transparent;
+  border: 1px solid whitesmoke;
+  border-radius: 20px;
+}
+
+button:hover {
+  background-color: whitesmoke;
+  color: #43087b;
+  transform: scale(1.2);
+  transition: transform ease-in-out 0.5s;
+}
